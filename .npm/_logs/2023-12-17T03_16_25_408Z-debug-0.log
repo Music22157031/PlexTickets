@@ -1,0 +1,79 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@9.8.1
+2 info using node@v18.19.0
+3 timing npm:load:whichnode Completed in 6ms
+4 timing config:load:defaults Completed in 2ms
+5 timing config:load:file:/usr/local/lib/node_modules/npm/npmrc Completed in 102ms
+6 timing config:load:builtin Completed in 103ms
+7 timing config:load:cli Completed in 5ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:project Completed in 93ms
+10 timing config:load:file:/home/container/.npmrc Completed in 1ms
+11 timing config:load:user Completed in 1ms
+12 timing config:load:file:/usr/local/etc/npmrc Completed in 0ms
+13 timing config:load:global Completed in 0ms
+14 timing config:load:setEnvs Completed in 1ms
+15 timing config:load Completed in 205ms
+16 timing npm:load:configload Completed in 205ms
+17 timing config:load:flatten Completed in 8ms
+18 timing npm:load:mkdirpcache Completed in 4ms
+19 timing npm:load:mkdirplogs Completed in 6ms
+20 verbose title npm install evolutionx dotenv
+21 verbose argv "install" "evolutionx" "dotenv"
+22 timing npm:load:setTitle Completed in 1ms
+23 timing npm:load:display Completed in 1ms
+24 verbose logfile logs-max:10 dir:/home/container/.npm/_logs/2023-12-17T03_16_25_408Z-
+25 verbose logfile /home/container/.npm/_logs/2023-12-17T03_16_25_408Z-debug-0.log
+26 timing npm:load:logFile Completed in 63ms
+27 timing npm:load:timers Completed in 0ms
+28 timing npm:load:configScope Completed in 1ms
+29 timing npm:load Completed in 397ms
+30 timing arborist:ctor Completed in 1ms
+31 silly logfile done cleaning log files
+32 timing idealTree:init Completed in 970ms
+33 timing idealTree:userRequests Completed in 2ms
+34 silly idealTree buildDeps
+35 silly fetch manifest evolutionx@*
+36 http fetch GET 404 https://registry.npmjs.org/evolutionx 590ms (cache skip)
+37 http fetch GET 404 https://registry.npmjs.org/evolutionx 37ms (cache skip)
+38 silly fetch manifest dotenv@*
+39 http fetch GET 200 https://registry.npmjs.org/dotenv 80ms (cache hit)
+40 silly placeDep ROOT dotenv@16.3.1 OK for: plextickets@1.7.0 want: *
+41 silly placeDep ROOT evolutionx@ OK for: plextickets@1.7.0 want: *
+42 timing idealTree:#root Completed in 752ms
+43 timing idealTree:node_modules/dotenv Completed in 0ms
+44 timing idealTree:node_modules/evolutionx Completed in 0ms
+45 timing idealTree:buildDeps Completed in 799ms
+46 timing idealTree:fixDepFlags Completed in 2ms
+47 timing idealTree Completed in 1775ms
+48 timing command:install Completed in 1883ms
+49 verbose stack HttpErrorGeneral: 404 Not Found - GET https://registry.npmjs.org/evolutionx - Not found
+49 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/npm-registry-fetch/lib/check-response.js:95:15
+49 verbose stack     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+49 verbose stack     at async RegistryFetcher.packument (/usr/local/lib/node_modules/npm/node_modules/pacote/lib/registry.js:87:19)
+49 verbose stack     at async RegistryFetcher.manifest (/usr/local/lib/node_modules/npm/node_modules/pacote/lib/registry.js:118:23)
+49 verbose stack     at async #nodeFromEdge (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:1049:19)
+49 verbose stack     at async #buildDepStep (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:917:11)
+49 verbose stack     at async Arborist.buildIdealTree (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:196:7)
+49 verbose stack     at async Promise.all (index 1)
+49 verbose stack     at async Arborist.reify (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:159:5)
+49 verbose stack     at async Install.exec (/usr/local/lib/node_modules/npm/lib/commands/install.js:149:5)
+50 verbose statusCode 404
+51 verbose pkgid evolutionx@*
+52 verbose cwd /home/container
+53 verbose Linux 5.15.0-89-generic
+54 verbose node v18.19.0
+55 verbose npm  v9.8.1
+56 error code E404
+57 error 404 Not Found - GET https://registry.npmjs.org/evolutionx - Not found
+58 error 404
+59 error 404  'evolutionx@*' is not in this registry.
+60 error 404
+60 error 404 Note that you can also install from a
+61 error 404 tarball, folder, http url, or git url.
+62 verbose exit 1
+63 timing npm Completed in 3427ms
+64 verbose unfinished npm timer reify 1702782986928
+65 verbose unfinished npm timer reify:loadTrees 1702782987029
+66 verbose code 1
+67 error A complete log of this run can be found in: /home/container/.npm/_logs/2023-12-17T03_16_25_408Z-debug-0.log

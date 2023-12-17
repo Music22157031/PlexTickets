@@ -1,0 +1,120 @@
+
+
+[12/17/2023, 3:17:22 AM] [STARTING] Attempting to start the bot..
+NodeJS Version: v18.19.0
+Bot Version: 1.7.0
+
+[12/17/2023, 3:18:03 AM] [STARTING] Attempting to start the bot..
+NodeJS Version: v18.19.0
+Bot Version: 1.7.0
+
+[12/17/2023, 3:18:20 AM] [CONFIG ERROR(S)] 
+TicketSettings.LogsChannelID is not a valid channel!
+ TicketButton1.TicketCategoryID is not a valid category!
+ TicketButton2.TicketCategoryID is not a valid category!
+ TicketButton3.TicketCategoryID is not a valid category!
+ TicketButton4.TicketCategoryID is not a valid category!
+ TicketButton5.TicketCategoryID is not a valid category!
+ TicketButton1.SupportRoles is not a valid role!
+ TicketButton2.SupportRoles is not a valid role!
+ TicketButton3.SupportRoles is not a valid role!
+ TicketButton4.SupportRoles is not a valid role!
+ TicketButton5.SupportRoles is not a valid role!
+
+[12/17/2023, 3:18:20 AM] [READY] Bot is now ready!
+
+[12/17/2023, 3:28:53 AM] [STARTING] Attempting to start the bot..
+NodeJS Version: v18.19.0
+Bot Version: 1.7.0
+
+[12/17/2023, 3:29:11 AM] [CONFIG ERROR(S)] 
+TicketButton2.TicketCategoryID is not a valid category!
+ TicketButton3.TicketCategoryID is not a valid category!
+ TicketButton4.TicketCategoryID is not a valid category!
+ TicketButton5.TicketCategoryID is not a valid category!
+ TicketButton2.SupportRoles is not a valid role!
+ TicketButton3.SupportRoles is not a valid role!
+ TicketButton4.SupportRoles is not a valid role!
+ TicketButton5.SupportRoles is not a valid role!
+
+[12/17/2023, 3:29:11 AM] [READY] Bot is now ready!
+
+[12/17/2023, 3:46:27 AM] [STARTING] Attempting to start the bot..
+NodeJS Version: v18.19.0
+Bot Version: 1.7.0
+
+[12/17/2023, 3:46:44 AM] [READY] Bot is now ready!
+
+[12/17/2023, 3:47:19 AM] [SLASH COMMAND] Command: panel, User: heavenly.wave
+
+[12/17/2023, 3:47:25 AM] [TICKET CREATION] Button: [object Object], User: heavenly.wave
+
+[12/17/2023, 3:47:38 AM] [TICKET CLAIM] User: heavenly.wave
+
+[12/17/2023, 3:47:38 AM] [unhandledRejection] [v1.7.0]
+ReferenceError: tButton is not defined
+    at /home/container/events/interactionCreate.js:1:21824
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+[12/17/2023, 3:47:48 AM] [TICKET CLOSED] A ticket has been successfully closed
+
+[12/17/2023, 3:48:56 AM] [TICKET CREATION] Button: [object Object], User: heavenly.wave
+
+[12/17/2023, 3:49:07 AM] [TICKET CLAIM] User: heavenly.wave
+
+[12/17/2023, 3:49:07 AM] [ERROR] [v1.7.0]
+Error [InteractionAlreadyReplied]: The reply to this interaction has already been sent or deferred.
+    at ButtonInteraction.reply (/home/container/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:102:46)
+    at module.exports (/home/container/events/interactionCreate.js:1:19679)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+[12/17/2023, 3:49:39 AM] [TICKET CLAIM] User: heavenly.wave
+
+[12/17/2023, 3:49:39 AM] [ERROR] [v1.7.0]
+Error [InteractionAlreadyReplied]: The reply to this interaction has already been sent or deferred.
+    at ButtonInteraction.reply (/home/container/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:102:46)
+    at module.exports (/home/container/events/interactionCreate.js:1:19679)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+[12/17/2023, 3:49:49 AM] [SLASH COMMAND] Command: close, User: heavenly.wave
+
+[12/17/2023, 3:50:20 AM] [TICKET CREATION] Button: [object Object], User: heavenly.wave
+
+[12/17/2023, 3:50:40 AM] [TICKET CLAIM] User: austin_699
+
+[12/17/2023, 3:50:40 AM] [unhandledRejection] [v1.7.0]
+ReferenceError: tButton is not defined
+    at /home/container/events/interactionCreate.js:1:21824
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+[12/17/2023, 3:50:41 AM] [TICKET CLAIM] User: heavenly.wave
+
+[12/17/2023, 3:50:41 AM] [unhandledRejection] [v1.7.0]
+ReferenceError: tButton is not defined
+    at /home/container/events/interactionCreate.js:1:21824
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+[12/17/2023, 3:50:48 AM] [TICKET CLOSED] A ticket has been successfully closed
+
+[12/17/2023, 3:52:54 AM] [STARTING] Attempting to start the bot..
+NodeJS Version: v18.19.0
+Bot Version: 1.7.0
+
+[12/17/2023, 3:53:11 AM] [READY] Bot is now ready!
+
+[12/17/2023, 3:53:39 AM] [STARTING] Attempting to start the bot..
+NodeJS Version: v18.19.0
+Bot Version: 1.7.0
+
+[12/17/2023, 3:53:55 AM] [READY] Bot is now ready!
+
+[12/17/2023, 3:54:08 AM] [TICKET CREATION] Button: [object Object], User: heavenly.wave
+
+[12/17/2023, 3:54:18 AM] [TICKET CLAIM] User: heavenly.wave
+
+[12/17/2023, 3:54:18 AM] [unhandledRejection] [v1.7.0]
+ReferenceError: tButton is not defined
+    at /home/container/events/interactionCreate.js:1:21824
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+[12/17/2023, 3:54:40 AM] [TICKET CLOSED] A ticket has been successfully closed
